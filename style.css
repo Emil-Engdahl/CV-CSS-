@@ -1,0 +1,198 @@
+.Meny {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+#Ett {
+  background-color: cyan;
+  padding: 10px 20px;
+}
+
+#Två {
+  background-color: cyan;
+  padding: 10px 20px;
+}
+
+#Tre {
+  background-color: cyan;
+  padding: 10px 20px;
+}
+
+#Fyra {
+  background-color: cyan;
+  padding: 10px 20px;
+}
+
+.Meny :hover {
+  background-color: cyan;
+  transition: background-color 0.3s;
+}
+
+.Intressen_Hobbyer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 600px;
+  margin-left: 25%;
+  margin-top: 10px;
+   display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1100px;
+}
+
+.Intressen {
+  text-align: center;
+  border: 2px solid black;
+  padding:1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Hobbyer {
+  text-align: center;
+  border: 2px solid black;
+  padding: 2.2rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Profilbild {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding:1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.CV {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1100px;
+}
+
+.Välkommen {
+  text-align: center;
+  border: 2px solid black;
+  padding:1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Information {
+  text-align: center;
+  align-items: left;
+  margin-left: 50px;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Form {
+  text-align: center;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Om_mig {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1100px;
+}
+
+.Bakgrund {
+  text-align: center;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Egenskaper {
+  text-align: center;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Mål {
+  text-align: center;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Skola {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Delar upp sidan i 4 lika stora kolumner */
+  padding: 2rem; /* Lägger till utrymme runt hela diven */
+  width: 100%;  /* Gör att diven tar upp hela sidans bredd */
+  box-sizing: border-box;  /* För att beräkna sidans bredd och höjd */
+}
+
+.Skollogga {
+  grid-column: 2; /* Placerar loggan i den andra kolumnen */
+  border: 5px solid black;
+  border-radius: 8px;
+  justify-self: center; /* Centrerar loggan i sin kolumn */
+}
+
+.Skolbild {
+  grid-column: 3; /* Placerar bilden i den tredje kolumnen */
+  border: 5px solid black;
+  border-radius: 8px;
+  justify-self: center; /* Centrerar bilden i sin kolumn */
+}
+
+.Skollogga img,
+.Skolbild img {
+  width: 200px; /* Gör att loggan och bilden fyller hela sin container */
+  height: 200px; /* Gör att loggan fyller hela sin container */
+  display: block; /* Tar bort det vita utrymmet under bilden */
+}
+
+.Uppgifter {
+  float: right; /* Placerar elementet till höger */
+  margin-right: 160px;
+  margin-top: 2px;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Kurser {
+  float: left; /* Placerar elementet till vänster */
+  margin-left: 5px;
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #e0fffe;
+}
+
+.Skollänk {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 325px;
+}
+
+.Utbildning {
+  text-align: left;
+  margin-left: 100px;
+}
